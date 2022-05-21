@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Students from './components/Students'
 import ContactUs from './components/ContactUs'
