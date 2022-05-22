@@ -10,9 +10,9 @@ function App() {
     <BrowserRouter>
     
       <div class="navbar navbar-expand-lg bg-dark" id='navBar'>
-          <div><button className='btn btn-outline-success'><Link to="/">Home</Link> </button></div>
-          <div><button className='btn btn-outline-primary'><Link to={'/students'}>Student</Link> </button></div>
-          <div><button className='btn btn-outline-warning'><Link to={'contactus'}>Contact Us</Link> </button></div>
+          <div><Link to="/"><button className='btn btn-outline-success'>Home </button></Link></div>
+          <div><Link to={'/students'}><button className='btn btn-outline-primary'>Student </button></Link></div>
+          <div><Link to={'contactus'}><button className='btn btn-outline-warning'>Contact Us </button></Link></div>
       </div>
       <Routes>
         <Route path='/' element={<Home/>}/>
